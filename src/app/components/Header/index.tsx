@@ -1,7 +1,12 @@
+"use client"
 
+import { MainHeader } from "./styles";
 
 export default function Header() {
   return (
-    <p>test header</p>
+    <MainHeader>
+      <h1>test header</h1>
+
+    </MainHeader>
   );
 }
