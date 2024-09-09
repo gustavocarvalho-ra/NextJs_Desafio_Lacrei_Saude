@@ -10,9 +10,9 @@ export default function Header() {
       <h2><span>LS </span>Lacrei Saúde</h2>
 
       <div className="btn">
-        <Link href="https://lacreisaude.com.br/quem-somos/" >Sobre</Link>
-        <Link href="https://lacreisaude.com.br/selecionar-pessoa/" >Login</Link>
-        <button>Ajuda</button>
+        <Link target="_blanck" href="https://lacreisaude.com.br/quem-somos/"><button>Sobre</button></Link>
+        <Link target="_blanck" href="https://lacreisaude.com.br/selecionar-pessoa/" ><button>Login</button></Link>
+        <Link target="_blanck" href="https://lacreisaude.com.br/selecionar-pessoa/" ><button  className="log" >Login</button></Link>
       </div>
 
     </MainHeader>
