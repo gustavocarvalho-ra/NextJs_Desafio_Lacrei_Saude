@@ -6,11 +6,13 @@ export const MainHeader = styled.div `
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 5.5rem 0 5.5rem;
+  margin: 0 7rem 0 7rem;
 
-  h2 {
+  .title {
     color: var(--primary-color);
     font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
 
     span {
       font-weight: 900;
@@ -20,7 +22,7 @@ export const MainHeader = styled.div `
   .btn {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 
     a {
       
