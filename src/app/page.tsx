@@ -5,11 +5,11 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div>
+      {/* <div>
         <p>
           test
         </p>
-      </div>
+      </div> */}
       <Footer />
     </>
   );
